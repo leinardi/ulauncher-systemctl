@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1",
+  "api_version": "1",
+  "name": "System Management",
+  "description": "Suspend / Hibernate / Reboot / Shutdown functions using systemd System and Service Manager.",
+  "developer_name": "Roberto Leinardi",
+  "icon": "images/shutdown.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "systemctl_ext",
+      "type": "keyword",
+      "name": "System Management",
+      "description": "Suspend / Hibernate / Reboot / Shutdown functions using systemd System and Service Manager.",
+      "default_value": "sys"
+    }
+  ]
+}
+
