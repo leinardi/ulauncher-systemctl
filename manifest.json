@@ -1,6 +1,5 @@
 {
-  "manifest_version": "1",
-  "api_version": "1",
+  "required_api_version": "^2.0.0",
   "name": "System Management",
   "description": "Suspend / Hibernate / Reboot / Shutdown functions using systemd System and Service Manager.",
   "developer_name": "Roberto Leinardi",
